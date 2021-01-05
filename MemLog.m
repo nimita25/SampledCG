@@ -33,15 +33,7 @@ filename = ["G1";
     "G60";
     "G63"];
 
-filename = ["G22";
-    "G23";
-    "G24";
-    "G25";
-    "G26";
-    "G35";
-    "G36";
-    "G37";
-    "G38"];
+filename = "G63";
 
 for i = 1:length(filename)
     profile clear
@@ -52,14 +44,14 @@ for i = 1:length(filename)
 %     [v,x,s,so] = Penalty('G',data,0.1,3600,0.1);
 %     fileID = fopen('Output/Memory_Algo2.txt','a');
     
-    [f,mc] = Penalty_SeDuMi('G',data);
-    fileID = fopen('Output/Memory_SeDuMi.txt','a');
+%     [f,mc] = Penalty_SeDuMi('G',data);
+%     fileID = fopen('Output/Memory_SeDuMi.txt','a');
 %     
 %     [f,mc] = Penalty_SDPT3('G',data,1e-3);
 %     fileID = fopen('Output/Memory_SDPT3.txt','a');
 %     
-%     [f,mc] = Penalty_SDPNAL('G',data,1e-3);
-%     fileID = fopen('Output/Memory_SDPNAL.txt','a');
+    [f,mc] = Penalty_SDPNAL('G',data,1e-3);
+    fileID = fopen('Output/Memory_SDPNAL.txt','a');
     
 %     data = strcat('G/',filename(i));
 %     data = convertStringsToChars(data);

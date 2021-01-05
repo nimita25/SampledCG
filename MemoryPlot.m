@@ -1,8 +1,37 @@
-Algo = [3.0128,
-3,
-3.01,
-3.589,
-3];
+Algo = [0.95;
+0.85;
+0.85;
+2.75;
+1.09;
+0.63;
+0.77;
+0.7;
+0.65;
+0.79;
+0.91;
+0.77;
+0.77;
+0.82;
+0.8;
+0.75;
+0.91;
+0.7;
+0.71;
+0.71;
+0.5;
+0.95;
+0.83;
+1.02;
+0.63;
+0.7;
+0.57;
+0.87;
+0.79;
+0.9;
+0.85;
+1.56;
+1.17;
+1.51];
 
 SDPNAL = [12.91;
 11.63;
@@ -36,6 +65,7 @@ SDPNAL = [12.91;
 20.73;
 456.57;
 625.07;
+747.75;
 747.75];
 
 
@@ -74,11 +104,40 @@ SDPT3 = [9.786;
 1107.8;
 747.79];
 
-SeDuMi = [9.812,
-77.2,
-15.32,
-137.424,
-381.69];
+SeDuMi = [9.81;
+9.8;
+13.97;
+32.79;
+9.8;
+9.82;
+9.82;
+9.82;
+9.81;
+61.13;
+61.13;
+61.13;
+61.13;
+61.13;
+61.13;
+61.13;
+61.13;
+61.13;
+15.31;
+15.31;
+15.36;
+15.31;
+15.31;
+137.42;
+137.42;
+137.49;
+15.31;
+15.32;
+15.33;
+15.32;
+381.69;
+381.61;
+747.82;
+747.81];
 
 CGAL = [1;
 2.11;
@@ -109,7 +168,11 @@ CGAL = [1;
 0.88;
 0.69;
 3.88;
-0.69];
+0.69;
+3.29;
+3.28;
+4.17;
+5.13];
 
 Vertices = [800;
 800;
@@ -155,7 +218,7 @@ semilogy(Vertices(1:length(SDPT3)), SDPT3,'s','MarkerSize',10)
 semilogy(Vertices(1:length(SeDuMi)), SeDuMi,'d','MarkerSize',10)
 semilogy(Vertices(1:length(CGAL)), CGAL,'^','MarkerSize',10)
 hold off;
-legend({'Algorithm 2','SDPNAL+','SDPT3','SeDuMi','CGAL (R=10)'},'Location','southeast');
+legend({'Algorithm 2','SDPNAL+','SDPT3','SeDuMi','SketchyCGAL (R=10)'},'Location','southeast');
 ylabel('Memory required in MB');
 xlabel('Number of vertices');
-%saveas(p,'MemoryPlot.png');
+saveas(p,'MemoryPlotGSet.png');

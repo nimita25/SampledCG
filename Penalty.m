@@ -240,19 +240,19 @@ if InputType == 'R'
     InputData = int2str(InputData);
 end
 
-fileID = fopen('Output/LogPenaltyOutput.txt','a');
-fprintf(fileID,'\n');
-fprintf(fileID,'%s&',datestr(now));
-fprintf(fileID,'%s&',InputType);
-fprintf(fileID,'%s&', InputData);
-%outd = [e1,tolerance];%, InputType, 
-%outt = '%.2f&%.2f&';
-%fprintf(fileID,outt,outd);
-outd = [sol_MC, t, time, max_constr_viol, constr_viol, sp];
-outt = '%d&%d&%.2f&%.3f&%.3f&%.3f';
-fprintf(fileID,outt,outd);
-fprintf(fileID, '\n');
-fclose(fileID);
+% fileID = fopen('Output/LogPenaltyOutput.txt','a');
+% fprintf(fileID,'\n');
+% fprintf(fileID,'%s&',datestr(now));
+% fprintf(fileID,'%s&',InputType);
+% fprintf(fileID,'%s&', InputData);
+% %outd = [e1,tolerance];%, InputType, 
+% %outt = '%.2f&%.2f&';
+% %fprintf(fileID,outt,outd);
+% outd = [sol_MC, t, time, max_constr_viol, constr_viol, sp];
+% outt = '%d&%d&%.2f&%.3f&%.3f&%.3f';
+% fprintf(fileID,outt,outd);
+% fprintf(fileID, '\n');
+% fclose(fileID);
 
 % p = figure;
 % %y = linspace(1,length(vecMaxPenalty),length(vecMaxPenalty));

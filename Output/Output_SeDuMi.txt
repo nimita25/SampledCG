@@ -34,3 +34,43 @@ Date/Time&Problem Type&Dataset&Cut Value&Time (in secs)&MCSDP value
 02-Jan-2021 13:55:03&G&large_instances/G22.mat&12901&1155.19&14135.946
 
 02-Jan-2021 14:13:38&G&large_instances/G23.mat&12873&1114.09&14142.109
+
+02-Jan-2021 15:03:24&G&large_instances/G24.mat&12878&1138.16&14140.856
+
+02-Jan-2021 15:20:54&G&large_instances/G25.mat&12911&1049.75&14144.245
+
+02-Jan-2021 15:39:24&G&large_instances/G26.mat&12870&1110.08&14132.871
+
+02-Jan-2021 16:01:52&G&large_instances/G35.mat&7416&1346.98&8014.740
+
+02-Jan-2021 16:22:38&G&large_instances/G36.mat&7369&1245.48&8005.964
+
+02-Jan-2021 16:42:27&G&large_instances/G37.mat&7370&1189.15&8018.623
+
+02-Jan-2021 17:02:19&G&large_instances/G38.mat&7370&1191.99&8014.974
+
+02-Jan-2021 17:16:56&G&large_instances/G43.mat&6434&209.49&7032.222
+
+02-Jan-2021 17:20:24&G&large_instances/G44.mat&6444&208.09&7027.885
+
+02-Jan-2021 17:24:15&G&large_instances/G45.mat&6460&231.28&7024.781
+
+02-Jan-2021 17:27:48&G&large_instances/G46.mat&6423&212.07&7029.933
+
+02-Jan-2021 17:31:14&G&large_instances/G47.mat&6438&206.02&7036.660
+
+02-Jan-2021 18:04:35&G&large_instances/G49.mat&6000&1995.04&6000.000
+
+02-Jan-2021 18:46:28&G&large_instances/G50.mat&5880&2512.54&5988.172
+
+02-Jan-2021 18:50:20&G&large_instances/G51.mat&3719&226.93&4006.255
+
+02-Jan-2021 18:53:33&G&large_instances/G52.mat&3719&192.71&4009.639
+
+02-Jan-2021 18:56:34&G&large_instances/G53.mat&3736&180.51&4009.718
+
+02-Jan-2021 18:59:25&G&large_instances/G54.mat&3711&171.65&4006.194
+
+04-Jan-2021 02:14:26&G&large_instances/G58.mat&18530&13200.23&20136.189
+
+04-Jan-2021 15:04:18&G&large_instances/G63.mat&25936&46188.37&28244.416
